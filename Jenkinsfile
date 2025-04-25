@@ -8,7 +8,8 @@ pipeline {
     stages {
         stage('Checkout Code') {
             steps {
-                git 'https://github.com/11yashjain/react-jenkins-assignment.git'
+                git url: 'https://github.com/11yashjain/react-jenkins-assignment.git', branch: 'master'
+
             }
         }
 
